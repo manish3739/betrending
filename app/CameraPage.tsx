@@ -436,7 +436,7 @@ export default function CameraPage({ navigation }: Props): React.ReactElement {
   }, [])
   function startRecorder() {
     if (videoRecorder && videoRecorder.current) {
-      videoRecorder.current.open({ maxLength: 30 }, (data: any) => {
+      videoRecorder.current.open({ maxLength: 120 }, (data: any) => {
         console.log('captured data', data);
       })
     }
@@ -464,7 +464,7 @@ export default function CameraPage({ navigation }: Props): React.ReactElement {
 
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%',paddingBottom:20 }}>
 
-                <TouchableOpacity style={{}} onPress={() => { setIsTelepromter(false) }}>
+                <TouchableOpacity style={{}} onPress={() => { setIsTelepromter(false), setIsScrolling(false) }}>
                   <Image style={{ width: 24, height: 24, tintColor: 'white' }} source={require('./images/undo.png')} />
                 </TouchableOpacity>
 
