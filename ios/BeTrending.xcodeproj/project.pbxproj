@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* cameraImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cameraImageTests.m */; };
+		00E356F31AD99517003FC87E /* BeTrendingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BeTrendingTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2FAEA716D9F44B8E76634228 /* libPods-cameraImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2ADEA0A818794BC1C09C23 /* libPods-cameraImage.a */; };
-		63D9980C8DDF78A5D52F13E9 /* libPods-cameraImage-cameraImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2CF86DD934E77A2C80AE3 /* libPods-cameraImage-cameraImageTests.a */; };
+		2FAEA716D9F44B8E76634228 /* libPods-BeTrending.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2ADEA0A818794BC1C09C23 /* libPods-BeTrending.a */; };
+		63D9980C8DDF78A5D52F13E9 /* libPods-BeTrending-BeTrendingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2CF86DD934E77A2C80AE3 /* libPods-BeTrending-BeTrendingTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		DF440BFA2A31AF34007F651B /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF440BF92A31AF33007F651B /* VisionKit.framework */; };
 /* End PBXBuildFile section */
@@ -23,27 +23,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = cameraImage;
+			remoteInfo = "BeTrending";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* cameraImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BeTrendingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeTrendingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* cameraImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraImageTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* cameraImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cameraImage/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = cameraImage/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cameraImage/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cameraImage/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cameraImage/main.m; sourceTree = "<group>"; };
-		172B9E0DEA23900FE0A75DE8 /* Pods-cameraImage-cameraImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraImage-cameraImageTests.release.xcconfig"; path = "Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests.release.xcconfig"; sourceTree = "<group>"; };
-		34E2CF86DD934E77A2C80AE3 /* libPods-cameraImage-cameraImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cameraImage-cameraImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cameraImage/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A86F5F8C0AD40DD8191865D4 /* Pods-cameraImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraImage.debug.xcconfig"; path = "Target Support Files/Pods-cameraImage/Pods-cameraImage.debug.xcconfig"; sourceTree = "<group>"; };
-		BAB83BBC188CC1C050FD3A87 /* Pods-cameraImage-cameraImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraImage-cameraImageTests.debug.xcconfig"; path = "Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE2ADEA0A818794BC1C09C23 /* libPods-cameraImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cameraImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D8BAD353D93D8E8A46FE7E /* Pods-cameraImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraImage.release.xcconfig"; path = "Target Support Files/Pods-cameraImage/Pods-cameraImage.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BeTrendingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BeTrendingTests.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BeTrending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeTrending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "BeTrending/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "BeTrending/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "BeTrending/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "BeTrending/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "BeTrending/main.m"; sourceTree = "<group>"; };
+		172B9E0DEA23900FE0A75DE8 /* Pods-BeTrending-BeTrendingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTrending-BeTrendingTests.release.xcconfig"; path = "Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests.release.xcconfig"; sourceTree = "<group>"; };
+		34E2CF86DD934E77A2C80AE3 /* libPods-BeTrending-BeTrendingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeTrending-BeTrendingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "BeTrending/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		A86F5F8C0AD40DD8191865D4 /* Pods-BeTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTrending.debug.xcconfig"; path = "Target Support Files/Pods-BeTrending/Pods-BeTrending.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB83BBC188CC1C050FD3A87 /* Pods-BeTrending-BeTrendingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTrending-BeTrendingTests.debug.xcconfig"; path = "Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2ADEA0A818794BC1C09C23 /* libPods-BeTrending.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeTrending.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D8BAD353D93D8E8A46FE7E /* Pods-BeTrending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTrending.release.xcconfig"; path = "Target Support Files/Pods-BeTrending/Pods-BeTrending.release.xcconfig"; sourceTree = "<group>"; };
 		DF440BF92A31AF33007F651B /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D9980C8DDF78A5D52F13E9 /* libPods-cameraImage-cameraImageTests.a in Frameworks */,
+				63D9980C8DDF78A5D52F13E9 /* libPods-BeTrending-BeTrendingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +62,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF440BFA2A31AF34007F651B /* VisionKit.framework in Frameworks */,
-				2FAEA716D9F44B8E76634228 /* libPods-cameraImage.a in Frameworks */,
+				2FAEA716D9F44B8E76634228 /* libPods-BeTrending.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* cameraImageTests */ = {
+		00E356EF1AD99517003FC87E /* BeTrendingTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* cameraImageTests.m */,
+				00E356F21AD99517003FC87E /* BeTrendingTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = cameraImageTests;
+			path = "BeTrendingTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -86,7 +86,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* cameraImage */ = {
+		13B07FAE1A68108700A75B9A /* BeTrending */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -96,7 +96,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = cameraImage;
+			name = "BeTrending";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -104,8 +104,8 @@
 			children = (
 				DF440BF92A31AF33007F651B /* VisionKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CE2ADEA0A818794BC1C09C23 /* libPods-cameraImage.a */,
-				34E2CF86DD934E77A2C80AE3 /* libPods-cameraImage-cameraImageTests.a */,
+				CE2ADEA0A818794BC1C09C23 /* libPods-BeTrending.a */,
+				34E2CF86DD934E77A2C80AE3 /* libPods-BeTrending-BeTrendingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* cameraImage */,
+				13B07FAE1A68108700A75B9A /* BeTrending */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* cameraImageTests */,
+				00E356EF1AD99517003FC87E /* BeTrendingTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -135,8 +135,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* cameraImage.app */,
-				00E356EE1AD99517003FC87E /* cameraImageTests.xctest */,
+				13B07F961A680F5B00A75B9A /* BeTrending.app */,
+				00E356EE1AD99517003FC87E /* BeTrendingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A86F5F8C0AD40DD8191865D4 /* Pods-cameraImage.debug.xcconfig */,
-				D3D8BAD353D93D8E8A46FE7E /* Pods-cameraImage.release.xcconfig */,
-				BAB83BBC188CC1C050FD3A87 /* Pods-cameraImage-cameraImageTests.debug.xcconfig */,
-				172B9E0DEA23900FE0A75DE8 /* Pods-cameraImage-cameraImageTests.release.xcconfig */,
+				A86F5F8C0AD40DD8191865D4 /* Pods-BeTrending.debug.xcconfig */,
+				D3D8BAD353D93D8E8A46FE7E /* Pods-BeTrending.release.xcconfig */,
+				BAB83BBC188CC1C050FD3A87 /* Pods-BeTrending-BeTrendingTests.debug.xcconfig */,
+				172B9E0DEA23900FE0A75DE8 /* Pods-BeTrending-BeTrendingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* cameraImageTests */ = {
+		00E356ED1AD99517003FC87E /* BeTrendingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cameraImageTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BeTrendingTests" */;
 			buildPhases = (
 				1F49AE6855DC13A396D8B105 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -171,14 +171,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = cameraImageTests;
-			productName = cameraImageTests;
-			productReference = 00E356EE1AD99517003FC87E /* cameraImageTests.xctest */;
+			name = "BeTrendingTests";
+			productname = "BeTrendingTests";
+			productReference = 00E356EE1AD99517003FC87E /* BeTrendingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* cameraImage */ = {
+		13B07F861A680F5B00A75B9A /* BeTrending */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cameraImage" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BeTrending" */;
 			buildPhases = (
 				607EBDB5F28E7460C9387389 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -193,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = cameraImage;
-			productName = cameraImage;
-			productReference = 13B07F961A680F5B00A75B9A /* cameraImage.app */;
+			name = "BeTrending";
+			productName = "BeTrending";
+			productReference = 13B07F961A680F5B00A75B9A /* BeTrending.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cameraImage" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BeTrending" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* cameraImage */,
-				00E356ED1AD99517003FC87E /* cameraImageTests */,
+				13B07F861A680F5B00A75B9A /* BeTrending */,
+				00E356ED1AD99517003FC87E /* BeTrendingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cameraImage-cameraImageTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BeTrending-BeTrendingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -298,15 +298,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		607EBDB5F28E7460C9387389 /* [CP] Check Pods Manifest.lock */ = {
@@ -324,7 +324,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cameraImage-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BeTrending-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,15 +337,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		857523AD2877E1CAAB10F5FF /* [CP] Embed Pods Frameworks */ = {
@@ -354,15 +354,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cameraImage-cameraImageTests/Pods-cameraImage-cameraImageTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeTrending-BeTrendingTests/Pods-BeTrending-BeTrendingTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E05D7A4705BDD072A4D38650 /* [CP] Copy Pods Resources */ = {
@@ -371,15 +371,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cameraImage/Pods-cameraImage-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeTrending/Pods-BeTrending-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -408,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* cameraImageTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BeTrendingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +426,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* cameraImage */;
+			target = 13B07F861A680F5B00A75B9A /* BeTrending */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,14 +434,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAB83BBC188CC1C050FD3A87 /* Pods-cameraImage-cameraImageTests.debug.xcconfig */;
+			baseConfigurationReference = BAB83BBC188CC1C050FD3A87 /* Pods-BeTrending-BeTrendingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = cameraImageTests/Info.plist;
+				INFOPLIST_FILE = "BeTrendingTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,19 +453,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BeTrending";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cameraImage.app/cameraImage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTrending.app/BeTrending";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 172B9E0DEA23900FE0A75DE8 /* Pods-cameraImage-cameraImageTests.release.xcconfig */;
+			baseConfigurationReference = 172B9E0DEA23900FE0A75DE8 /* Pods-BeTrending-BeTrendingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = cameraImageTests/Info.plist;
+				INFOPLIST_FILE = "BeTrendingTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,22 +477,23 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BeTrending";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cameraImage.app/cameraImage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTrending.app/BeTrending";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A86F5F8C0AD40DD8191865D4 /* Pods-cameraImage.debug.xcconfig */;
+			baseConfigurationReference = A86F5F8C0AD40DD8191865D4 /* Pods-BeTrending.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WSCAZT36N;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = cameraImage/Info.plist;
+				INFOPLIST_FILE = "BeTrending/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "BeTrending";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,8 +504,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = cameraImage;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BeTrending";
+				PRODUCT_NAME = "BeTrending";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -513,13 +514,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D8BAD353D93D8E8A46FE7E /* Pods-cameraImage.release.xcconfig */;
+			baseConfigurationReference = D3D8BAD353D93D8E8A46FE7E /* Pods-BeTrending.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WSCAZT36N;
-				INFOPLIST_FILE = cameraImage/Info.plist;
+				INFOPLIST_FILE = "BeTrending/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "BeTrending";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,8 +532,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = cameraImage;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BeTrending";
+				PRODUCT_NAME = "BeTrending";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -677,7 +679,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cameraImageTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BeTrendingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -686,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cameraImage" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BeTrending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -695,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cameraImage" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BeTrending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

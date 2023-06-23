@@ -32,7 +32,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'cameraImage' do
+target 'BeTrending' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -54,7 +54,7 @@ target 'cameraImage' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'cameraImageTests' do
+  target 'BeTrendingTests' do
     inherit! :complete
     # Pods for testing
   end

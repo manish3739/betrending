@@ -1,4 +1,4 @@
-package com.cameraimage;
+package com.BeTrending;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

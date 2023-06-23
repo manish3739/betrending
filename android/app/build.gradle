@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.cameraimage"
+    namespace "com.BeTrending"
     defaultConfig {
-        applicationId "com.cameraimage"
+        applicationId "com.BeTrending"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
